@@ -1,0 +1,40 @@
+@mixin mq($break) {
+  @if $break=="xl" {
+    @media (max-width: 90em) {
+      // 1440px / 16px
+      @content;
+    }
+  }
+
+  @else if $break=="l" {
+    @media (max-width: 75em) {
+      // 1200px / 16px
+      @content;
+    }
+  }
+
+  @else if $break=="m" {
+    @media (max-width: 66.25em) {
+      // 1060px / 16px
+      @content;
+    }
+  }
+
+  @else if $break=="s" {
+    @media (max-width: 54.375em) {
+      // 870px / 16px
+      @content;
+    }
+  }
+
+  @else if $break=="xs" {
+    @media (max-width: 30em) {
+      // 480px / 16px
+      @content;
+    }
+  }
+
+  @else {
+    @error "Whoops! No value could be retrieved for `#{$break}`. "
+  }
+}
