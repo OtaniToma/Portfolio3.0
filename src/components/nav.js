@@ -57,27 +57,27 @@ const Nav = () => {
       <aside className="sideimg">
         <div className="sideimg__container">
           <div className="sideimg__overlay"></div>
-          <div className="sideimg__item is-active" data-img="home">
+          <figure className="sideimg__item is-active" data-img="home">
             <img src="/images/hero/home.jpg" alt="" />
-          </div>
-          <div className="sideimg__item" data-img="about">
+          </figure>
+          <figure className="sideimg__item" data-img="about">
             <img src="/images/hero/about.jpg" alt="" />
-          </div>
-          <div className="sideimg__item" data-img="kumonos">
+          </figure>
+          <figure className="sideimg__item" data-img="kumonos">
             <img src="/images/hero/kumonos.jpg" alt="" />
-          </div>
-          <div className="sideimg__item" data-img="flightboard">
+          </figure>
+          <figure className="sideimg__item" data-img="flightboard">
             <img src="/images/hero/flightboard.jpg" alt="" />
-          </div>
-          <div className="sideimg__item" data-img="budgeticket">
+          </figure>
+          <figure className="sideimg__item" data-img="budgeticket">
             <img src="/images/hero/budgeticket.jpg" alt="" />
-          </div>
-          <div className="sideimg__item" data-img="portfolio">
+          </figure>
+          <figure className="sideimg__item" data-img="portfolio">
             <img src="/images/hero/portfolio.jpg" alt="" />
-          </div>
-          <div className="sideimg__item" data-img="contact">
+          </figure>
+          <figure className="sideimg__item" data-img="contact">
             <img src="/images/hero/contact.jpg" alt="" />
-          </div>
+          </figure>
         </div>
       </aside>
     </div>
