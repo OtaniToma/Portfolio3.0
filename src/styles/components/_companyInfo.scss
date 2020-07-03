@@ -1,0 +1,23 @@
+.company-info {
+  margin-bottom: 3rem;
+
+  dt {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  dd {
+    margin-inline-start: 0;
+  }
+
+  &__basic-info {
+    color: $color-grey-500;
+    margin-bottom: 1rem;
+  }
+
+  &__job-description {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+  }
+}
