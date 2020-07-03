@@ -14,7 +14,10 @@ const Header = () => {
   return (
     <>
       <header className="header-desktop">
-        <div className="header-desktop__hamburger" onClick={() => toggleNavOpen(prevState => !prevState)}>
+        <div
+          className="header-desktop__hamburger"
+          onClick={() => toggleNavOpen(prevState => !prevState)}
+        >
           <div className={navOpen ? "hamburger__trigger is-active" : "hamburger__trigger"}>
             <div className="hamburger__wrap">
               <span></span>

@@ -32,8 +32,8 @@ const CompanyInfo = ({ jobtitle, company, location, period, time, description })
           </ul>
           { description && 
             <ul className="company-info__job-description">
-              {description.map(item => {
-                return <li>{item}</li>
+              {description.map((item, index) => {
+                return <li key={index}>{item}</li>
               })}
             </ul>
           }
