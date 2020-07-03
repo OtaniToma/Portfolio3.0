@@ -1,24 +1,54 @@
 import React from 'react'
 import Layout from '../components/layout'
 import TextBlock from '../components/textblock'
+import Skills from '../components/skills'
 import CompanyInfo from '../components/companyInfo'
 
 export default ({ data }) => (
   <Layout>
 
-    <TextBlock heading={"💪 Carieer Objective"}>
+    <TextBlock heading={"Carieer Objective"}>
       <p>
         <strong>Front-end Web Developer position</strong> with working experience in web development in a design agency or a software company. Seeking to utilize my skills in front-end web development.
       </p>
     </TextBlock>
 
-    <TextBlock heading={"👍 Skills & Tools"}>
-      <p>
-        Lorem Ipsum
-      </p>
+    <TextBlock heading={"Skills & Tools"}>
+      <Skills
+        heading={"Language"}
+        icons={['html', 'css', 'js', 'react', 'wordpress']}
+        description={[
+          'Utilize modern CSS3 features (Flexbox, grid, animation, gradient, etc.)',
+          'Methodology: BEM, Preprocessor: SCSS',
+          'JavaScript ES6'
+        ]}
+      />
+      <Skills
+        heading={"Framework"}
+        icons={['react']}
+        description={[
+          'Create reusable components',
+          'Understand React Hooks',
+          'Utilize Gatsby.js to build fast static website'
+        ]}
+      />
+      <Skills
+        heading={"CMS"}
+        icons={['wordpress']}
+        description={[
+          'Set up development environment with MAMP and VirtualHostX',
+          'Build original design templates and add custom fields with Advanced Custom Fields Pro',
+          'Import and export database file with phpMyAdmin'
+        ]}
+      />
+      <Skills
+        heading={"Others"}
+        icons={['git', 'github', 'material-ui', 'bootstrap', 'illustrator', 'photoshop']}
+        description={[]}
+      />
     </TextBlock>
 
-    <TextBlock heading={"👨‍💻 Work Experience"}>
+    <TextBlock heading={"Work Experience"}>
       <CompanyInfo
         jobtitle="Junior Web Developer"
         company="Signals Design Group"
@@ -70,6 +100,34 @@ export default ({ data }) => (
         time="Part-time"
       />
     </TextBlock>
-    
+
+    <TextBlock heading={"Education"}>
+      <dl>
+        <dt>British Columbia Institute of Technology (BCIT)</dt>
+        <dd>Certificate, New Media Design and Web Development</dd>
+        <dt>Udemy</dt>
+        <dd>Completed The Web Developer Bootcamp</dd>
+        <dt>TECH::CAMP</dt>
+        <dd>Completed Ruby & Ruby on Rails Bootcamp for Begginers</dd>
+        <dt>Osaka Sangyo University</dt>
+        <dd>Bachelor of Engineering, Architecture and Environmental Design</dd>
+      </dl>
+    </TextBlock>
+
+    <TextBlock heading={"Hobbies"}>
+      <dl>
+        <dt>Cycling</dt>
+        <dd>
+          More than 15 years with specially shaped "Recumbent bike".
+        </dd>
+        <dt>Travelling</dt>
+        <dd>
+          Been to 28 countries since 2011. "The number of countries I traveled must be larger than my age."
+        </dd>
+        <dt>Aviation Photography</dt>
+        <dd>Took photos from Cessna 172 to A380 in more than 40 airports around the world.</dd>
+      </dl>
+    </TextBlock>
+
   </Layout>
 )
