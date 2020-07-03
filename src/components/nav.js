@@ -7,7 +7,6 @@ const Nav = () => {
     const showSideImg = () => {
       const dataNames = [...document.querySelectorAll('[data-name]')];
       const dataImgs = [...document.querySelectorAll('[data-img]')];
-
       dataNames.forEach((dataName) => {
         dataName.addEventListener('mouseover', e => {
           const selectedName = dataName.dataset.name;
@@ -24,7 +23,7 @@ const Nav = () => {
         });
       });
     }
-    showSideImg()
+    showSideImg();
   })
 
   return (

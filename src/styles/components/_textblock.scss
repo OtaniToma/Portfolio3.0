@@ -1,0 +1,119 @@
+.textblock {
+
+  &__container {
+    width: calc(100% - 100px);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+
+    @include mq('s') {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+
+  &__header {
+    width: 33.33%;
+    padding: 0 2.5rem 0 0;
+
+    @include mq('s') {
+      width: 100%;
+      padding: 0;
+    }
+
+    &__line {
+      width: 100%;
+      border-top: 1px solid $color-main;
+      margin-bottom: 2rem;
+      transition: all .5s ease;
+
+      @include mq('s') {
+        width: 50%;
+      }
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__body {
+    width: 66.66%;
+    padding-right: 100px;
+
+    @include mq('s') {
+      width: 100%;
+      padding-right: 0;
+    }
+
+    &__line {
+      width: 100%;
+      border-top: 1px solid $color-grey-300;
+      margin-bottom: 2rem;
+
+      @include mq('s') {
+        border-top: none;
+      }
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .job-responsibility-list {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+  }
+
+  .screenshot {
+    width: 50%;
+    min-width: 300px;
+    margin-bottom: 1rem;
+
+    @include mq('s') {
+      margin: 0 auto 1rem auto;
+    }
+  }
+}
+
+.icon-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: .5rem;
+  list-style-type: none;
+  padding-left: 0;
+
+  li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+pre {
+  overflow: auto;
+  line-height: 1.45;
+  // background-color: #f6f8fa;
+
+  code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    word-wrap: normal;
+  }
+}
+
+video {
+  width: 75%;
+}
