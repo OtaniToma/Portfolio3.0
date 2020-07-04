@@ -16,7 +16,7 @@ export default ({ data }) => (
     <TextBlock heading={"Skills & Tools"}>
       <Skills
         heading={"Language"}
-        icons={['html', 'css', 'js']}
+        icons={['html', 'css', 'javascript']}
         description={[
           'Utilize modern CSS3 features (Flexbox, grid, animation, gradient, etc.)',
           'Methodology: BEM, Preprocessor: SCSS',

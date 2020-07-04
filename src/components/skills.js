@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 const Skills = ({ heading, description, icons }) => {
 
   const allIcons = [
     { id: 'html', path: '/images/icon/html.svg' },
     { id: 'css', path: '/images/icon/css.svg' },
-    { id: 'js', path: '/images/icon/js.svg' },
+    { id: 'javascript', path: '/images/icon/js.svg' },
     { id: 'react', path: '/images/icon/react.svg' },
     { id: 'wordpress', path: '/images/icon/wordpress.svg' },
     { id: 'git', path: '/images/icon/git.svg' },
@@ -17,7 +17,6 @@ const Skills = ({ heading, description, icons }) => {
     { id: 'figma', path: '/images/icon/figma.svg' },
   ]
 
-
     const iconsToShow = icons;
     const iconsToShowArray = [];
 
@@ -25,7 +24,9 @@ const Skills = ({ heading, description, icons }) => {
       iconsToShow.forEach((iconToShow, index) => {
         allIcons.forEach((icon) => {
           if (iconToShow === icon.id) {
-            iconsToShowArray[index] = icon.path;
+            const id = icon.id;
+            const path = icon.path;
+            iconsToShowArray[index] = { id: id, path: path };
           }
         })
       })
@@ -39,7 +40,7 @@ const Skills = ({ heading, description, icons }) => {
         <dd>
           <ul className="icon-list">
             { iconsToShowArray.map((icon, index) => {
-              return <li key={index}><img src={icon} /></li>
+              return <li key={index}><img src={icon.path} alt={icon.id} /></li>
             }) }
           </ul>
           { description && 
