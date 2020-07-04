@@ -7,13 +7,13 @@ import CompanyInfo from '../components/companyInfo'
 export default ({ data }) => (
   <Layout>
 
-    <TextBlock heading={"Carieer Objective"}>
+    <TextBlock heading={"Carieer Objective"} pagetop={true}>
       <p>
-        <strong>Front-end Web Developer position</strong> with working experience in web development in a design agency or a software company. Seeking to utilize my skills in front-end web development.
+        <strong>Front-end Web Developer position</strong> with professional experience in web development in a design agency or a software company. Seeking to utilize my skills in front-end web development.
       </p>
     </TextBlock>
 
-    <TextBlock heading={"Skills & Tools"}>
+    <TextBlock heading={"What I can"}>
       <Skills
         heading={"Language"}
         icons={['html', 'css', 'javascript']}
@@ -28,6 +28,7 @@ export default ({ data }) => (
         icons={['react']}
         description={[
           'Create reusable components',
+          'Routing and deploying',
           'Understand React Hooks',
           'Utilize Gatsby.js to build fast static website'
         ]}
@@ -37,14 +38,23 @@ export default ({ data }) => (
         icons={['wordpress']}
         description={[
           'Set up development environment with MAMP and VirtualHostX',
-          'Build original design templates and add custom fields with Advanced Custom Fields Pro',
-          'Import and export database file with phpMyAdmin'
+          'Build original design templates and add custom fields with Advanced Custom Fields Pro'
         ]}
       />
       <Skills
         heading={"Others"}
         icons={['git', 'github', 'material-ui', 'bootstrap', 'illustrator', 'photoshop', 'figma']}
-        description={[]}
+        description={[
+          'Use git version control system with team',
+          'Use graphic software to work with design team and optimize data for website'
+        ]}
+      />
+      <Skills
+        heading={"Now Loading..."}
+        icons={['firebase', 'gatsby', 'graphql', 'redux', 'typescript']}
+        description={[
+          'Catching up with the modern technologies day by day!'
+        ]}
       />
     </TextBlock>
 
@@ -58,8 +68,8 @@ export default ({ data }) => (
         description={[
           'Build responsive websites from scratch with modern HTML, CSS and JavaScript',
           'Create original WordPress custom templates with Advanced Custom Field',
-          'Utilize popular libraries and frameworks (React.js, GSAP, ScrollMagic, Barba, Bodymovin, etc.) to create interactive user interface',
-          'Deploy websites to staging and live with SSH connection',
+          'Utilize popular libraries and frameworks (Next.js, GSAP, ScrollMagic, Barba, Bodymovin, etc.) to create interactive user interface',
+          'Deploy websites to staging and live with SSH & FTP connection',
           'Closely Work with design and management team to realize functionality, browser compatibility, and usability of the website along with the timeline',
           'Add functions, replace assets, and edit text contents quickly upon client requests',
           'Create HTML email templates for MailChimp, Spark, and Lasso'
