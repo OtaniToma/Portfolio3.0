@@ -16,7 +16,7 @@ export default ({ data }) => (
     <TextBlock heading={"Skills & Tools"}>
       <Skills
         heading={"Language"}
-        icons={['html', 'css', 'js', 'react', 'wordpress']}
+        icons={['html', 'css', 'js']}
         description={[
           'Utilize modern CSS3 features (Flexbox, grid, animation, gradient, etc.)',
           'Methodology: BEM, Preprocessor: SCSS',
@@ -43,7 +43,7 @@ export default ({ data }) => (
       />
       <Skills
         heading={"Others"}
-        icons={['git', 'github', 'material-ui', 'bootstrap', 'illustrator', 'photoshop']}
+        icons={['git', 'github', 'material-ui', 'bootstrap', 'illustrator', 'photoshop', 'figma']}
         description={[]}
       />
     </TextBlock>

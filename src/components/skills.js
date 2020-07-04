@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Skills = ({ heading, description, icons }) => {
 
@@ -13,27 +13,24 @@ const Skills = ({ heading, description, icons }) => {
     { id: 'material-ui', path: '/images/icon/material-ui.svg' },
     { id: 'bootstrap', path: '/images/icon/bootstrap.svg' },
     { id: 'illustrator', path: '/images/icon/ai.svg' },
-    { id: 'photoshop', path: '/images/icon/wordpress.svg' },
+    { id: 'photoshop', path: '/images/icon/ps.svg' },
+    { id: 'figma', path: '/images/icon/figma.svg' },
   ]
-  const iconsToShow = [];
-  
-  const checkIcons = (icons) => {
-    allIcons.map((icon, index) => {
-      if (icons[index] === icon.id) {
-        iconsToShow[index] = {id: icon.id, path: icon.path}
-      }
-      return true;
-    })
-  }
-  checkIcons(icons);
 
-  const showIcons = iconsToShow.map(icon => {
-    return (
-      <li key={icon.id}>
-        <img src={icon.path} className="icon" alt={icon.id} />
-      </li>
-    );
-  });
+
+    const iconsToShow = icons;
+    const iconsToShowArray = [];
+
+    const checkIcons = (iconsToShow) => {
+      iconsToShow.forEach((iconToShow, index) => {
+        allIcons.forEach((icon) => {
+          if (iconToShow === icon.id) {
+            iconsToShowArray[index] = icon.path;
+          }
+        })
+      })
+    }
+    checkIcons(iconsToShow);
 
   return (
     <>
@@ -41,7 +38,9 @@ const Skills = ({ heading, description, icons }) => {
         <dt>{heading}</dt>
         <dd>
           <ul className="icon-list">
-            { showIcons }
+            { iconsToShowArray.map((icon, index) => {
+              return <li key={index}><img src={icon} /></li>
+            }) }
           </ul>
           { description && 
             <ul className="desc-list">
