@@ -15,6 +15,11 @@ const Skills = ({ heading, description, icons }) => {
     { id: 'illustrator', path: '/images/icon/ai.svg' },
     { id: 'photoshop', path: '/images/icon/ps.svg' },
     { id: 'figma', path: '/images/icon/figma.svg' },
+    { id: 'firebase', path: '/images/icon/firebase.svg' },
+    { id: 'redux', path: '/images/icon/redux.svg' },
+    { id: 'gatsby', path: '/images/icon/gatsby.svg' },
+    { id: 'graphql', path: '/images/icon/graphql.svg' },
+    { id: 'typescript', path: '/images/icon/ts.svg' },
   ]
 
     const iconsToShow = icons;
