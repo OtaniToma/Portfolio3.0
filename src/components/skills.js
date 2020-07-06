@@ -24,21 +24,15 @@ const Skills = ({ heading, description, icons }) => {
 
   const iconsToShow = icons;
 
-  const showIcons = (iconsToShow) => {
-    iconsToShow.map(icon => {
-      console.log(allIcons[icon]) // => OK
-      console.log(allIcons['html'].path) // => OK
-      // console.log(allIcons[icon].path) // NG 'Cannot read property 'path' of undefined'
-    })
-  }
-
   return (
     <>
       <dl className="skills">
         <dt>{heading}</dt>
         <dd>
           <ul className="icon-list">
-            { showIcons(iconsToShow) }
+            { iconsToShow.map(icon => {
+              return <li key={allIcons[icon].id}><img src={allIcons[icon].path} /></li>
+            })}
           </ul>
           { description && 
             <ul className="desc-list">
