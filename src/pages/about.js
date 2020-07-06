@@ -4,7 +4,7 @@ import TextBlock from '../components/textblock'
 import Skills from '../components/skills'
 import CompanyInfo from '../components/companyInfo'
 
-export default ({ data }) => (
+export default () => (
   <Layout>
 
     <TextBlock heading={"Carieer Objective"} pagetop={true}>
@@ -43,7 +43,7 @@ export default ({ data }) => (
       />
       <Skills
         heading={"Others"}
-        icons={['git', 'github', 'material-ui', 'bootstrap', 'illustrator', 'photoshop', 'figma']}
+        icons={['git', 'github', 'materialui', 'bootstrap', 'illustrator', 'photoshop', 'figma']}
         description={[
           'Use git version control system with team',
           'Use graphic software to work with design team and optimize data for website'
@@ -135,7 +135,7 @@ export default ({ data }) => (
           Been to 28 countries since 2011. "The number of countries I traveled must be larger than my age."
         </dd>
         <dt>Aviation Photography</dt>
-        <dd>Took photos from Cessna 172 to A380 in more than 40 airports around the world.</dd>
+        <dd>Took photos from Cessna 172 to Airbus A380 in more than 40 airports around the world.</dd>
       </dl>
     </TextBlock>
 
