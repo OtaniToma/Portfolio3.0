@@ -14,7 +14,7 @@ const WorksItem = ({ heading, image, skills, link, github, description }) => {
           <div className="works-item__body">
             <div className="works-item__body__line"></div>
             <h2>{heading}</h2>
-            <ul class="skills">
+            <ul className="skills">
               { skills.map(skill => {
                 return <li key={skill}>{skill}</li>
               }) }
