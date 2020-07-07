@@ -2,11 +2,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import TextBlock from '../components/textblock'
+import WorksItem from '../components/WorksItem'
 import Button from '../components/button'
 import TransformPerspective from '../components/transformPerspective'
 
 export default () => (
   <Layout>
+    
     <section className="home">
       <div className="home__container">
         <div className="home__name">
@@ -27,11 +29,31 @@ export default () => (
         </Link>
       </div>
     </section>
+    
     <TextBlock heading={'About Me'} pagetop={true} sectionid={'about'}>
       <TransformPerspective path={'../images/about/avatar.jpg'}/>
       <p>Hi! I am Toma Otani, a front-end web developer in Vancouver, Canada.</p>
       <p>I moved to Vancouver on 2018. After graduating from British Columbia Institute of Technology (BCIT), I started to work as a junior web developer at Signals Design Group, a design agency in Vancouver.</p>
       <Button value={'About Me'} type={'solid'} link={'/about'} />
     </TextBlock>
+
+    <WorksItem
+      heading={'Fight Board'}
+      image={'/images/works/flightboard.png'}
+      skills={['JavaScript', 'Node.js', 'Express.js', 'EJS', 'mongoDB', 'Heroku', 'Bootstrap']}
+      link={'/works/flightboard'}
+      github={''}
+      description={'This app is to share airplane photography for aviation geeks like me. User can post photos with aircraft information and see the location of the airport on the map.'}
+    />
+
+    <WorksItem
+      heading={'Portfolio'}
+      image={'/images/works/portfolio.png'}
+      skills={['React.js', 'Gatsby.js', 'GraphQL', 'CSS']}
+      link={'/works/flightboard'}
+      github={'https://github.com/OtaniToma/Portfolio3.0'}
+      description={'I built this portfolio website from scratch to understand SPA (Single Page Application) with React.js. Also, I added some animation with CSS and JavaScript library to demonstrate my skills.'}
+    />
+
   </Layout>
 )

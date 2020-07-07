@@ -1,0 +1,77 @@
+.works-item {
+
+  &__container {
+    width: calc(100% - 100px);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+
+    @include mq('s') {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+
+  &__header {
+    width: 33.33%;
+    padding: 0 2.5rem 0 0;
+
+    @include mq('s') {
+      width: 100%;
+      padding: 0;
+    }
+
+    &__line {
+      width: 100%;
+      border-top: 1px solid $color-main;
+      margin-bottom: 2rem;
+      transition: all .5s ease;
+
+      @include mq('s') {
+        width: 50%;
+      }
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__body {
+    width: 66.66%;
+    padding-right: 100px;
+
+    @include mq('s') {
+      width: 100%;
+      padding-right: 0;
+    }
+
+    &__line {
+      width: 100%;
+      border-top: 1px solid $color-grey-300;
+      margin-bottom: 2rem;
+
+      @include mq('s') {
+        border-top: none;
+      }
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  .button-group {
+    display: flex;
+
+    a:nth-child(2) {
+      margin-left: 1rem;
+    }
+  }
+}

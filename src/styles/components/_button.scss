@@ -2,11 +2,12 @@
 	display: inline-block;
 	color: $color-body;
 	font-size: 1rem;
-	cursor:pointer;
+	margin: 1rem 0;
+	cursor: pointer;
 
   &--outline,
   &--solid {
-		padding: 0 2rem;
+		padding: 0 1rem;
 		height: $button-height;
 	}
 
@@ -24,15 +25,15 @@
 	}
 
 	&--solid {
-		background:$color-main;
-		color:white;
-    border:solid 1px $color-main;
+		background: $color-main;
+		color: white;
+    border: solid 1px $color-main;
 		transition: .25s all ease;
 
 		&:hover{
 			background: transparent;
 			color: $color-grey-900;
-      border:solid 1px $color-main;
+      border: solid 1px $color-main;
 			transition: .25s all ease;
 		}
 	}
