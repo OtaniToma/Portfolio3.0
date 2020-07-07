@@ -24,7 +24,9 @@ const Nav = () => {
       });
     }
     showSideImg();
-  })
+  });
+
+
 
   return (
     <div className="global-nav">

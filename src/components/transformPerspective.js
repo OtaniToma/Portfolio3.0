@@ -75,8 +75,8 @@ const TransformPerspective = ({ path }) => {
 
   return(
     <div className="transform-perspective">
-      <div class="transform-perspective__container">
-        <div class="transform-perspective__inner">
+      <div className="transform-perspective__container">
+        <div className="transform-perspective__inner">
           <div className="image" style={bgImg}>
           </div>
         </div>
