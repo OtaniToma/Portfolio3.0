@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Toma Otani Portfolio`,
     description: `This is Toma Otani's portfolio website.`,
-    lang: `ja`,
+    lang: `en`,
     siteUrl: `https://tomaotani.com`,
     locale: `en_US`,
     fbappid: `XXXXXXXXXXXXXXXXXXXXX`,
