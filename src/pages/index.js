@@ -37,29 +37,32 @@ export default () => (
 
     <WorksItem
       heading={'Fight Board'}
+      subtitle={'Photo Sharing App'}
       image={'/images/works/flightboard.png'}
-      skills={['JavaScript', 'Node.js', 'Express.js', 'EJS', 'mongoDB', 'Heroku', 'Bootstrap']}
+      skills={['JavaScript', 'Node.js', 'Express.js', 'mongoDB', 'MVC Architecture']}
       link={'/works/flightboard'}
       github={''}
       description={'This app is to share airplane photography for aviation geeks like me. User can post photos with aircraft information and see the location of the airport on the map.'}
     />
 
     <WorksItem
-      heading={'KUMONOS'}
-      image={'/images/works/kumonos.png'}
-      skills={['HTML', 'CSS', 'JavaScript', 'WordPress', 'Web design']}
-      link={'/works/kumonos'}
-      github={''}
-      description={'I worked for the company as a freelance web designer & developer remotely.'}
-    />
-
-    <WorksItem
       heading={'Portfolio'}
+      subtitle={'Gatsby.js Static Website'}
       image={'/images/works/portfolio.png'}
       skills={['React.js', 'Gatsby.js', 'JavaScript', 'CSS']}
       link={'/works/flightboard'}
       github={'https://github.com/OtaniToma/Portfolio3.0'}
       description={'I built this portfolio website from scratch to understand SPA (Single Page Application) with React.js. Also, I added some animation with CSS and JavaScript library to demonstrate my skills.'}
+    />
+
+    <WorksItem
+      heading={'KUMONOS'}
+      subtitle={'WordPress Theme Development'}
+      image={'/images/works/kumonos.png'}
+      skills={['HTML', 'CSS', 'JavaScript', 'WordPress']}
+      link={'/works/kumonos'}
+      github={''}
+      description={'I worked for the company as a freelance web designer & developer remotely.'}
     />
 
   </Layout>

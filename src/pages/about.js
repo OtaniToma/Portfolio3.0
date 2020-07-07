@@ -102,13 +102,6 @@ export default () => (
           'Market research in Vietnam for three months'
         ]}
       />
-      <CompanyInfo
-        jobtitle="CG Designer"
-        company="IAO Takeda Associates Architects"
-        period="Sep. 2017 - Feb. 2018"
-        location="Ho Chi Minh City, Vietnam & Tokyo, Japan"
-        time="Part-time"
-      />
     </TextBlock>
 
     <TextBlock heading={"Education"}>
