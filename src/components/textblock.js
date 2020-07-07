@@ -1,10 +1,10 @@
 import React from 'react'
 
-const TextBlock = ({ heading, children, pagetop }) => {
+const TextBlock = ({ heading, children, pagetop, sectionid }) => {
   
   return (
     <>
-      <div className="textblock">
+      <section className="textblock" id={sectionid}>
         <div className={
           pagetop ? "textblock__container inner-wrap page-top" : "textblock__container inner-wrap"
         }>
@@ -17,7 +17,7 @@ const TextBlock = ({ heading, children, pagetop }) => {
             {children}
           </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }

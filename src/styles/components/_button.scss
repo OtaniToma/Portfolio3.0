@@ -1,0 +1,39 @@
+.btn {
+	display: inline-block;
+	color: $color-body;
+	font-size: 1rem;
+	cursor:pointer;
+
+  &--outline,
+  &--solid {
+		padding: 0 2rem;
+		height: $button-height;
+	}
+
+	&--outline {
+		border: solid 1px $color-main;
+		color: $color-grey-900;
+		background: transparent;
+		transition: .25s all ease;
+
+		&:hover{
+			background: $color-main;
+			color: $color-grey-50;
+			transition: .25s all ease;
+		}
+	}
+
+	&--solid {
+		background:$color-main;
+		color:white;
+    border:solid 1px $color-main;
+		transition: .25s all ease;
+
+		&:hover{
+			background: transparent;
+			color: $color-grey-900;
+      border:solid 1px $color-main;
+			transition: .25s all ease;
+		}
+	}
+}
