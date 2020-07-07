@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import TextBlock from '../components/textblock'
-import Button from '..//components/button'
+import Button from '../components/button'
+import TransformPerspective from '../components/transformPerspective'
 
 export default () => (
   <Layout>
@@ -27,9 +28,10 @@ export default () => (
       </div>
     </section>
     <TextBlock heading={'About Me'} pagetop={true} sectionid={'about'}>
+      <TransformPerspective path={'/images/about/avatar.jpg'}/>
       <p>Hi! I am Toma Otani, a front-end web developer in Vancouver, Canada.</p>
       <p>I moved to Vancouver on 2018. After graduating from British Columbia Institute of Technology (BCIT), I started to work as a junior web developer at Signals Design Group, a design agency in Vancouver.</p>
-      <Button value={'Read More'} type={'solid'} link={'/about'} />
+      <Button value={'About Me'} type={'solid'} link={'/about'} />
     </TextBlock>
   </Layout>
 )
