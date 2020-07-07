@@ -28,7 +28,7 @@ export default () => (
       </div>
     </section>
     <TextBlock heading={'About Me'} pagetop={true} sectionid={'about'}>
-      <TransformPerspective path={'/images/about/avatar.jpg'}/>
+      <TransformPerspective path={'../images/about/avatar.jpg'}/>
       <p>Hi! I am Toma Otani, a front-end web developer in Vancouver, Canada.</p>
       <p>I moved to Vancouver on 2018. After graduating from British Columbia Institute of Technology (BCIT), I started to work as a junior web developer at Signals Design Group, a design agency in Vancouver.</p>
       <Button value={'About Me'} type={'solid'} link={'/about'} />

@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 const TransformPerspective = ({ path }) => {
   const bgImg = {
     // eslint-disable-next-line
-    backgroundImage: 'url(' + `${window.location.origin}${path}` + ')',
+    backgroundImage: 'url(' + `${path}` + ')',
   };
 
   useEffect(() => {
