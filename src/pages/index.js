@@ -1,5 +1,6 @@
 import React from 'react'
 import scrollTo from 'gatsby-plugin-smoothscroll'
+import SEO from '../components/seo'
 import Layout from '../components/layout'
 import TextBlock from '../components/textblock'
 import WorksItem from '../components/WorksItem'
@@ -8,7 +9,7 @@ import TransformPerspective from '../components/transformPerspective'
 
 export default () => (
   <Layout>
-    
+    <SEO />
     <section className="home">
       <div className="home__container">
         <div className="home__name">
@@ -49,7 +50,7 @@ export default () => (
       heading={'Portfolio'}
       subtitle={'Gatsby.js Static Website'}
       image={'/images/works/portfolio.png'}
-      skills={['React.js', 'Gatsby.js', 'JavaScript', 'CSS']}
+      skills={['React.js', 'Gatsby.js', 'GraphQL', 'JavaScript', 'CSS']}
       link={'/works/flightboard'}
       github={'https://github.com/OtaniToma/Portfolio3.0'}
       description={'I built this portfolio website from scratch to understand SPA (Single Page Application) with React.js. Also, I added some animation with CSS and JavaScript library to demonstrate my skills.'}

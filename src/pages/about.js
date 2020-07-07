@@ -1,12 +1,17 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import TextBlock from '../components/textblock'
 import Skills from '../components/skills'
 import CompanyInfo from '../components/companyInfo'
 
-export default () => (
+export default ({ location }) => (
   <Layout>
-
+  <SEO
+    pagetitle="About Me"
+    pagedesc="About Me page on tomaotani.com"
+    pagepath={location.pathname}
+  />
     <TextBlock heading={"Carieer Objective"} pagetop={true}>
       <p>
         <strong>Front-end Web Developer position</strong> with professional experience in web development in a design agency or a software company. Seeking to utilize my skills in front-end web development.
