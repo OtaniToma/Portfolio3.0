@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layout'
 import SEO from '../../components/seo'
+import Hero from '../../components/hero'
 
 export default ({ location }) => (
   <Layout>
@@ -9,6 +10,9 @@ export default ({ location }) => (
       pagedesc="Description of Portfolio"
       pagepath={location.pathname}
     />
-    <h1>Portfolio</h1>
+    <Hero
+      title="Portfolio"
+      bgimg="/images/hero/portfolio.jpg"
+    />
   </Layout>
 )
