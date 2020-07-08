@@ -24,7 +24,7 @@ const Nav = () => {
       });
     }
     showSideImg();
-  }, []);
+  });
 
 
 
