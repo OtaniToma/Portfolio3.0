@@ -5,6 +5,7 @@ import Hero from '../../components/hero'
 import TextBlock from '../../components/textblock'
 import Skills from '../../components/skills'
 import Button from '../../components/button'
+import Pagination from '../../components/pagination'
 
 export default ({ location }) => (
   <Layout>
@@ -54,6 +55,11 @@ export default ({ location }) => (
         ]}
       />
     </TextBlock>
+
+    <Pagination
+      prev={'home'}
+      next={'flightboard'}
+    />
 
   </Layout>
 )

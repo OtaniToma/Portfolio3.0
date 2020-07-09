@@ -7,6 +7,7 @@ import Hero from '../../components/hero'
 import TextBlock from '../../components/textblock'
 import Skills from '../../components/skills'
 import Button from '../../components/button'
+import Pagination from '../../components/pagination'
 
 export const query = graphql`
   query {
@@ -95,6 +96,11 @@ export default ({ location, data }) => (
     <TextBlock heading={'About Us page'} pagetop={false}>
       <Img fluid={data.about.childImageSharp.fluid} alt="screenshot" />
     </TextBlock>
+
+    <Pagination
+      prev={'flightboard'}
+      next={'portfolio'}
+    />
 
   </Layout>
 )
