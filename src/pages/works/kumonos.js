@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import Layout from '../../components/layout'
 import SEO from '../../components/seo'
 import Hero from '../../components/hero'
@@ -6,7 +8,26 @@ import TextBlock from '../../components/textblock'
 import Skills from '../../components/skills'
 import Button from '../../components/button'
 
-export default ({ location }) => (
+export const query = graphql`
+  query {
+    home: file(relativePath: {eq: "works/kumonos-home.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 1024) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    about: file(relativePath: {eq: "works/kumonos-about.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 1024) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`
+
+export default ({ location, data }) => (
   <Layout>
     <SEO
       pagetitle="KUMONOS"
@@ -23,7 +44,7 @@ export default ({ location }) => (
       <p>
         KUMONOS Corporation is a construction consultancy company based in Japan. With the recent expansion of their business into worldwide, they considered to renewing the website. I worked for the company as a freelance web designer and developer remotely.
       </p>
-      <Button value={'Live'} type={'solid'} link={'http://kumonos.info/'} external={true} />
+      <Button value={'Visit Website'} type={'solid'} link={'http://kumonos.info/'} external={true} />
     </TextBlock>
     
     <TextBlock heading={'Skills'} pagetop={false}>
@@ -68,11 +89,11 @@ export default ({ location }) => (
     </TextBlock>
 
     <TextBlock heading={'Homepage'} pagetop={false}>
-      <img src="/images/works/kumonos-home.jpg" className="screenshot" alt="screenshot" />
+      <Img fluid={data.home.childImageSharp.fluid} alt="screenshot" />
     </TextBlock>
 
     <TextBlock heading={'About Us page'} pagetop={false}>
-      <img src="/images/works/kumonos-about.jpg" className="screenshot" alt="screenshot" />
+      <Img fluid={data.about.childImageSharp.fluid} alt="screenshot" />
     </TextBlock>
 
   </Layout>
