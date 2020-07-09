@@ -20,6 +20,13 @@ const Skills = ({ heading, description, icons }) => {
     gatsby: { id: 'gatsby', path: '/images/icon/gatsby.svg' },
     graphql: { id: 'graphql', path: '/images/icon/graphql.svg' },
     typescript: { id: 'typescript', path: '/images/icon/ts.svg' },
+    node: { id: 'node', path: '/images/icon/node.svg' },
+    express: { id: 'express', path: '/images/icon/express.svg' },
+    ejs: { id: 'ejs', path: '/images/icon/ejs.svg' },
+    mongodb: { id: 'mongodb', path: '/images/icon/mongodb.svg' },
+    gsap: { id: 'gsap', path: '/images/icon/gsap.svg' },
+    scrollmagic: { id: 'scrollmagic', path: '/images/icon/scrollmagic.png' },
+    sass: { id: 'sass', path: '/images/icon/sass.svg' },
   }
 
   const iconsToShow = icons;
@@ -30,9 +37,11 @@ const Skills = ({ heading, description, icons }) => {
         <dt>{heading}</dt>
         <dd>
           <ul className="icon-list">
-            { iconsToShow.map(icon => {
-              return <li key={allIcons[icon].id}><img src={allIcons[icon].path} /></li>
-            })}
+            { icons &&
+              iconsToShow.map(icon => {
+                return <li key={allIcons[icon].id}><img src={allIcons[icon].path} /></li>
+              })
+            }
           </ul>
           { description && 
             <ul className="desc-list">
