@@ -35,13 +35,15 @@ export default ({ location }) => (
         icons={[]}
         description={[
           'Utilize Gatsby.js to build light and fast website',
-          'SEO friendly',
+          'Show images by GraphQL',
+          'Available for PWA',
           'Automatically deploy to Netlify'
         ]}
       />
       <Skills
         heading={'Plugins'}
         description={[
+          'gatsby-image',
           'gatsby-plugin-sass',
           'gatsby-plugin-prefetch-google-fonts',
           'gatsby-plugin-react-helmet',

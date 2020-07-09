@@ -24,7 +24,7 @@ export default ({ location }) => (
         This app can find cheap flights with destination information.
         The purpose of creating this app is to understand the basics of JavaScript, handling API request, and React.js app development.
       </p>
-      <Button value={'Live'} type={'solid'} link={'https://budgeticket.firebaseapp.com/'} external={true} />
+      <Button value={'Visit Website'} type={'solid'} link={'https://budgeticket.firebaseapp.com/'} external={true} />
     </TextBlock>
     
     <TextBlock heading={'Skills'} pagetop={false}>

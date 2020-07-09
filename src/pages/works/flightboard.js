@@ -35,7 +35,7 @@ export default ({ location }) => (
           <li>ID: speedbird</li>
           <li>IPassword: speedbird</li>
         </ul>
-      <Button value={'Live'} type={'solid'} link={'https://flight-board.herokuapp.com/airplanes'} external={true} />
+      <Button value={'Visit Website'} type={'solid'} link={'https://flight-board.herokuapp.com/airplanes'} external={true} />
       </p>
     </TextBlock>
     
