@@ -10,7 +10,7 @@ export default ({ location }) => (
   <Layout>
     <SEO
       pagetitle="BudgeTicket"
-      pagedesc="Description of BudgeTicket"
+      pagedesc="BudgeTicket is a web application to find cheap flights."
       pagepath={location.pathname}
     />
     <Hero
@@ -30,8 +30,28 @@ export default ({ location }) => (
     <TextBlock heading={'Skills'} pagetop={false}>
       <Skills
         heading={''}
-        icons={['javascript', 'react', 'redux', 'firebase', 'materialui']}
+        icons={['javascript', 'react', 'firebase', 'materialui']}
         description={[]}
+      />
+      <Skills
+        heading={'Features'}
+        icons={[]}
+        description={[
+          'Use basic JavaScript methods (map, foreach, push, Fetch API, Promise)',
+          'Build components both functional components and class components',
+          'Utilize React Hooks (useState, useEffect)',
+          'Style with UI Framework (Material-UI)'
+        ]}
+      />
+      <Skills
+        heading={'APIs'}
+        icons={[]}
+        description={[
+          'Skyscanner Flight Search',
+          'Build components both functional components and class components',
+          'Google Maps JavaScript',
+          'OpenWeatherMap'
+        ]}
       />
     </TextBlock>
 
