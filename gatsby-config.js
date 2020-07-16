@@ -9,7 +9,7 @@ module.exports = {
     title: `Toma Otani Portfolio`,
     description: `This is Toma Otani's portfolio website.`,
     lang: `en`,
-    siteUrl: `https://tomaotani.com`,
+    siteUrl: `https://otanitoma.com`,
     locale: `en_US`,
     fbappid: `XXXXXXXXXXXXXXXXXXXXX`,
   },
@@ -77,7 +77,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "tomaotani.com",
+        cookieDomain: "otanitoma.com",
       },
     },
   ],
