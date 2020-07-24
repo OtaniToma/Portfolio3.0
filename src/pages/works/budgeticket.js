@@ -31,16 +31,16 @@ export default ({ location }) => (
     <TextBlock heading={'Skills'} pagetop={false}>
       <Skills
         heading={''}
-        icons={['javascript', 'react', 'firebase', 'materialui']}
+        icons={['javascript', 'react', 'redux', 'firebase', 'materialui']}
         description={[]}
       />
       <Skills
         heading={'Features'}
         icons={[]}
         description={[
-          'Use basic JavaScript methods (map, foreach, push, Fetch API, Promise)',
-          'Build components both functional components and class components',
+          'Use basic JavaScript methods',
           'Utilize React Hooks (useState, useEffect)',
+          'Understand Re-ducks design',
           'Style with UI Framework (Material-UI)'
         ]}
       />
