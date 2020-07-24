@@ -9,11 +9,6 @@ import TransformPerspective from '../components/transformPerspective'
 
 const Home = () => {
 
-  useEffect(() => {
-    const fullname = document.querySelector('.home__name__fullname');
-    fullname.classList.add('is-active');
-  }, [])
-
   return (
     <Layout>
       <SEO />
@@ -42,6 +37,16 @@ const Home = () => {
         <p>I moved to Vancouver on 2018. After graduating from British Columbia Institute of Technology (BCIT), I started to work as a junior web developer at Signals Design Group, a design agency in Vancouver.</p>
         <Button value={'About Me'} type={'solid'} link={'/about'} />
       </TextBlock>
+
+      <WorksItem
+        heading={'BudgeTicket'}
+        subtitle={'Flight Searching App'}
+        image={'/images/works/budgeticket.png'}
+        skills={['JavaScript', 'React.js', 'Redux', 'firebase', 'Material-UI']}
+        link={'/works/budgeticket'}
+        github={''}
+        description={'This app can find cheap flights with destination information. The purpose of creating this app is to understand the basics of JavaScript, handling API request, and React.js app development.'}
+      />
 
       <WorksItem
         heading={'Fight Board'}
