@@ -26,8 +26,6 @@ const Nav = () => {
     showSideImg();
   });
 
-
-
   return (
     <div className="global-nav">
     <div className="global-nav__container">
