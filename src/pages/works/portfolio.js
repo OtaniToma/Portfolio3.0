@@ -22,7 +22,7 @@ export default ({ location }) => (
     <TextBlock heading={'Overview'} pagetop={false}>
       <img src="/images/works/portfolio.png" className="screenshot" alt="screenshot" />
       <p>
-        I built this portfolio website from scratch to understand SPA (Single Page Application) with React.js. Also, I added CSS and JavaScript animation to demonstrate my skills.
+        I built this portfolio website from scratch to understand SPA (Single Page Application). It achieves 100 point at performance on Google's Lighthouse Report. 
       </p>
       <Button value={'Github'} type={'outline'} link={'https://github.com/OtaniToma/portfolio'} external={true} />
     </TextBlock>
@@ -32,11 +32,10 @@ export default ({ location }) => (
         icons={['javascript', 'react', 'gatsby', 'graphql']}
       />
       <Skills
-        heading={'Static Site Generator: Gatsby.js'}
-        icons={[]}
+        heading={'Light and Fast Static Website'}
         description={[
-          'Utilize Gatsby.js to build light and fast website',
-          'Show images by GraphQL',
+          'Utilize Gatsby.js',
+          'Show WebP images by GraphQL',
           'Available for PWA',
           'Automatically deploy to Netlify'
         ]}
