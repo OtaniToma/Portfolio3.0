@@ -44,8 +44,8 @@ const Nav = () => {
                 <ul>
                   <li data-name="budgeticket"><Link to="/works/budgeticket">BudgeTicket</Link></li>
                   <li data-name="flightboard"><Link to="/works/flightboard">Flight Board</Link></li>
-                  <li data-name="kumonos"><Link to="/works/kumonos">KUMONOS</Link></li>
                   <li data-name="portfolio"><Link to="/works/portfolio">Portfolio</Link></li>
+                  <li data-name="kumonos"><Link to="/works/kumonos">KUMONOS</Link></li>
                 </ul>
               </div>
             </div>
@@ -62,9 +62,6 @@ const Nav = () => {
           <figure className="sideimg__item" data-img="about">
             <img src="/images/hero/about.jpg" alt="" />
           </figure>
-          <figure className="sideimg__item" data-img="kumonos">
-            <img src="/images/hero/kumonos.jpg" alt="" />
-          </figure>
           <figure className="sideimg__item" data-img="flightboard">
             <img src="/images/hero/flightboard.jpg" alt="" />
           </figure>
@@ -74,8 +71,8 @@ const Nav = () => {
           <figure className="sideimg__item" data-img="portfolio">
             <img src="/images/hero/portfolio.jpg" alt="" />
           </figure>
-          <figure className="sideimg__item" data-img="contact">
-            <img src="/images/hero/contact.jpg" alt="" />
+          <figure className="sideimg__item" data-img="kumonos">
+            <img src="/images/hero/kumonos.jpg" alt="" />
           </figure>
         </div>
       </aside>

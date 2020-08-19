@@ -34,9 +34,10 @@ export default ({ location }) => (
       <strong>Trial Account</strong>
         <ul>
           <li>ID: speedbird</li>
-          <li>IPassword: speedbird</li>
+          <li>Password: speedbird</li>
         </ul>
       <Button value={'Visit Website'} type={'solid'} link={'https://flight-board.herokuapp.com/airplanes'} external={true} />
+      <Button value={'Github'} type={'outline'} link={'https://github.com/OtaniToma/flightboard'} external={true} />
       </p>
     </TextBlock>
     
@@ -55,19 +56,11 @@ export default ({ location }) => (
         ]}
       />
       <video src="/videos/flightboard.mp4" autoPlay="autoplay" controls="controls" loop="loop" playsInline>
+        <track src="#" kind="captions" srclang="en" label="English" />
       </video>
     </TextBlock>
 
     <TextBlock heading={'Specification'} pagetop={false}>
-      <Skills
-        heading={'APIs'}
-        description={[
-          'Skyscanner Flight Search',
-          'Build components both functional components and class components',
-          'Google Maps JavaScript',
-          'OpenWeatherMap'
-        ]}
-      />
       <Skills
         heading={'Database'}
         icons={[]}
@@ -83,7 +76,7 @@ export default ({ location }) => (
         ]}
       />
       <Skills
-        heading={'UI Framework'}
+        heading={'Libraries'}
         icons={[]}
         description={[
           'body-parser',
@@ -101,7 +94,7 @@ export default ({ location }) => (
 
     <Pagination
       prev={'budgeticket'}
-      next={'kumonos'}
+      next={'portfolio'}
     />
 
   </Layout>

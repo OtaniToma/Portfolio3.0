@@ -6,8 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Toma Otani Portfolio`,
-    description: `This is Toma Otani's portfolio website.`,
+    title: `Otani Toma Portfolio Website`,
+    description: `This is my portfolio website.`,
     lang: `en`,
     siteUrl: `https://otanitoma.com`,
     locale: `en_US`,
@@ -28,8 +28,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Toma Otani Portfolio`,
-        short_name: `Toma Otani Portfolio`,
+        name: `Otani Toma Portfolio Website`,
+        short_name: `Otani Toma Portfolio Website`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffad00`,

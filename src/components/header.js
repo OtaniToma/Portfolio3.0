@@ -17,6 +17,9 @@ const Header = () => {
         <div
           className="header-desktop__hamburger"
           onClick={() => toggleNavOpen(prevState => !prevState)}
+          onKeyDown={() => toggleNavOpen(prevState => !prevState)}
+          role="button"
+          tabIndex="0"
         >
           <div className={navOpen ? "hamburger__trigger is-active" : "hamburger__trigger"}>
             <div className="hamburger__wrap">
@@ -28,7 +31,7 @@ const Header = () => {
         </div>
         <div className="header-desktop__container">
           <div className="header-desktop__title">
-            <Link to={`/`}>Toma Otani</Link>
+            <Link to={`/`}>Otani Toma</Link>
           </div>
           <div className="header-desktop__icon">
             <Link to={`https://www.linkedin.com/in/otani-toma/`} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></Link>
@@ -40,7 +43,12 @@ const Header = () => {
       { navOpen && <Nav />}
 
       <header className="header-mobile">
-        <div className="header-mobile__hamburger" onClick={() => toggleNavOpen(prevState => !prevState)}>
+        <div className="header-mobile__hamburger"
+          onClick={() => toggleNavOpen(prevState => !prevState)}
+          onKeyDown={() => toggleNavOpen(prevState => !prevState)}
+          role="button"
+          tabIndex="0"
+        >
           <div className={navOpen ? "hamburger__trigger is-active" : "hamburger__trigger"}>
             <div className="hamburger__wrap">
               <span></span>

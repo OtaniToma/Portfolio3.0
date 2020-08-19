@@ -66,7 +66,7 @@ export default ({ location, data }) => (
         description={[
           'CSS: BEM Methodology and SCSS',
           'Recet CSS: Normalize.css',
-          'JavaScript: Break into multiple modules and export to single bundle.js',
+          'Break into multiple modules and export to single bundle.js',
           'Task runner: Gulp.js',
         ]}
       />
@@ -98,8 +98,8 @@ export default ({ location, data }) => (
     </TextBlock>
 
     <Pagination
-      prev={'flightboard'}
-      next={'portfolio'}
+      prev={'portfolio'}
+      next={'home'}
     />
 
   </Layout>

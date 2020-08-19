@@ -39,7 +39,7 @@ const Skills = ({ heading, description, icons }) => {
           <ul className="icon-list">
             { icons &&
               iconsToShow.map(icon => {
-                return <li key={allIcons[icon].id}><img src={allIcons[icon].path} /></li>
+                return <li key={allIcons[icon].id}><img src={allIcons[icon].path} alt={icon.id} /></li>
               })
             }
           </ul>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../components/button'
 
-const WorksItem = ({ heading, subtitle, image, skills, link, github, description }) => {
+const WorksItem = ({ heading, subtitle, image, skills, link, description }) => {
   
   return (
     <>
@@ -21,10 +21,7 @@ const WorksItem = ({ heading, subtitle, image, skills, link, github, description
               }) }
             </ul>
             <p>{description}</p>
-            <div className="button-group">
-              <Button value={'Read More'} type={'solid'} link={link} />
-              { github && <Button value={'Github'} type={'outline'} link={github} external={true} /> }
-            </div>
+            <Button value={'Read More'} type={'solid'} link={link} />
           </div>
         </div>
       </section>

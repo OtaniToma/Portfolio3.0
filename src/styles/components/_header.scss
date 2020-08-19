@@ -32,6 +32,10 @@
     cursor: pointer;
     transition: all .5s ease;
 
+    &:hover {
+      outline: none;
+    }
+
     // Shrink when hover
     &:hover {
       span:nth-of-type(1) {

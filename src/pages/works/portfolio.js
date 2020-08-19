@@ -24,7 +24,7 @@ export default ({ location }) => (
       <p>
         I built this portfolio website from scratch to understand SPA (Single Page Application) with React.js. Also, I added CSS and JavaScript animation to demonstrate my skills.
       </p>
-      <Button value={'Github'} type={'outline'} link={'https://github.com/OtaniToma/Portfolio3.0'} external={true} />
+      <Button value={'Github'} type={'outline'} link={'https://github.com/OtaniToma/portfolio'} external={true} />
     </TextBlock>
     
     <TextBlock heading={'Skills'} pagetop={false}>
@@ -56,7 +56,7 @@ export default ({ location }) => (
 
     <Pagination
       prev={'flightboard'}
-      next={'home'}
+      next={'kumonos'}
     />
 
   </Layout>

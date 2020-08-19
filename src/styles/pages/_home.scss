@@ -87,6 +87,10 @@
     align-items: center;
     cursor: pointer;
 
+    &:focus {
+      outline: 0;
+    }
+
     svg {
       width: 25px;
       animation: ArrowDown 2s linear infinite;

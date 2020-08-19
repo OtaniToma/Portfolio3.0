@@ -14,6 +14,11 @@
   &__basic-info {
     color: $color-grey-500;
     margin-bottom: 1rem;
+
+    a {
+      color: $color-grey-500;
+      text-decoration: underline;
+    }
   }
 
   &__job-description {

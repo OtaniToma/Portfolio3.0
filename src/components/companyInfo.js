@@ -7,7 +7,7 @@ import {
   faClock
 } from '@fortawesome/free-solid-svg-icons'
 
-const CompanyInfo = ({ jobtitle, company, location, period, time, description }) => {
+const CompanyInfo = ({ jobtitle, company, url, location, period, time, description }) => {
   
   return (
     <>
@@ -16,7 +16,7 @@ const CompanyInfo = ({ jobtitle, company, location, period, time, description })
         <dd>
           <ul className="company-info__basic-info">
             <li>
-              <FontAwesomeIcon icon={faBuilding} /> {company}
+              <FontAwesomeIcon icon={faBuilding} /> <a href={url} target="_blank" rel="noreferrer">{company}</a>
             </li>
             <li>
               <FontAwesomeIcon icon={faMapMarkerAlt} /> {location}

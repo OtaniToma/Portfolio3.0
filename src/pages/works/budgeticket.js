@@ -26,6 +26,7 @@ export default ({ location }) => (
         The purpose of creating this app is to understand the basics of JavaScript, handling API request, and React.js app development.
       </p>
       <Button value={'Visit Website'} type={'solid'} link={'https://budgeticket.firebaseapp.com/'} external={true} />
+      <Button value={'Github'} type={'outline'} link={'https://github.com/OtaniToma/budgeticket'} external={true} />
     </TextBlock>
     
     <TextBlock heading={'Skills'} pagetop={false}>
@@ -40,7 +41,7 @@ export default ({ location }) => (
         description={[
           'Use basic JavaScript methods',
           'Utilize React Hooks (useState, useEffect)',
-          'Understand Re-ducks design',
+          'Understand Re-ducks design pattern',
           'Style with UI Framework (Material-UI)'
         ]}
       />

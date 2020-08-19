@@ -30,12 +30,11 @@ export default ({ location }) => (
       />
       <Skills
         heading={"Framework"}
-        icons={['react']}
+        icons={['react', 'redux', 'gatsby']}
         description={[
-          'Create reusable components',
-          'Routing and deploying',
-          'Understand React Hooks',
-          'Utilize Gatsby.js to build fast static website'
+          'Build reusable components with React Hooks',
+          'Use Redux (re-ducks design pattern)',
+          'Use Gatsby.js to build fast static website'
         ]}
       />
       <Skills
@@ -51,12 +50,12 @@ export default ({ location }) => (
         icons={['git', 'github', 'materialui', 'bootstrap', 'illustrator', 'photoshop', 'figma']}
         description={[
           'Use git version control system with team',
-          'Use graphic software to work with design team and optimize data for website'
+          'Use graphic softwares to work with design team and optimize data for website'
         ]}
       />
       <Skills
         heading={"Now Loading..."}
-        icons={['firebase', 'gatsby', 'graphql', 'redux', 'typescript']}
+        icons={['firebase', 'graphql']}
         description={[
           'Catching up with the modern technologies day by day!'
         ]}
@@ -67,14 +66,14 @@ export default ({ location }) => (
       <CompanyInfo
         jobtitle="Junior Web Developer"
         company="Signals Design Group"
+        url="https://www.signals.ca/"
         period="Sep. 2019 - June 2020"
         location="Vancouver, Canada"
         time="Full-time & Part-time"
         description={[
-          'Build responsive websites from scratch with modern HTML, CSS and JavaScript',
-          'Create original WordPress custom templates with Advanced Custom Field',
+          'Build responsive websites with modern HTML, CSS and JavaScript',
+          'Create WordPress custom templates from scratch',
           'Utilize popular libraries and frameworks (Next.js, GSAP, ScrollMagic, Barba, Bodymovin, etc.) to create interactive user interface',
-          'Deploy websites to staging and live with SSH & FTP connection',
           'Closely Work with design and management team to realize functionality, browser compatibility, and usability of the website along with the timeline',
           'Add functions, replace assets, and edit text contents quickly upon client requests',
           'Create HTML email templates for MailChimp, Spark, and Lasso'
@@ -83,11 +82,12 @@ export default ({ location }) => (
       <CompanyInfo
         jobtitle="PR Manager & In-house Designer"
         company="KUMONOS Corporation"
+        url="http://kumonos.info"
         period="Apr. 2015 - Aug. 2018"
         location="Osaka, Japan"
         time="Full-time"
         description={[
-          'Designed and managed corporate website and blog',
+          'Planned and managed own corporate website and blog',
           'Designed promotional materials (brochures, flyers, exhibition booth, etc.) with Illustrator and Photoshop',
           'SEO optimization and online marketing with Google Analytics and Ads',
           'Business trips: US, Germany, Hong Kong, Vietnam, Malaysia and Indonesia',
@@ -97,15 +97,10 @@ export default ({ location }) => (
       <CompanyInfo
         jobtitle="Intern"
         company="Ministry of Economy, Trade and Industry (The Government of Japan)"
+        url='https://www.meti.go.jp/english/'
         period="Sep. 2017 - Feb. 2018"
         location="Ho Chi Minh City, Vietnam & Tokyo, Japan"
-        description={[
-          'Designed and managed corporate website and blog',
-          'Designed promotional materials (brochures, flyers, exhibition booth, etc.) with Illustrator and Photoshop',
-          'SEO optimization and online marketing with Google Analytics and Ads',
-          'Business trips: US, Germany, Hong Kong, Vietnam, Malaysia and Indonesia',
-          'Market research in Vietnam for three months'
-        ]}
+        description={[]}
       />
     </TextBlock>
 
