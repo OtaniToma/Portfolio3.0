@@ -48,9 +48,9 @@ export default ({ location }) => (
         heading={'APIs'}
         icons={[]}
         description={[
-          'Skyscanner Flight Search AP',
+          'Skyscanner Flight Search',
           'Google Maps JavaScript',
-          'Unsplash Image API'
+          'Unsplash Image'
         ]}
       />
     </TextBlock>
