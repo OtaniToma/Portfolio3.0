@@ -53,15 +53,6 @@ const Home = () => {
       />
 
       <WorksItem
-        heading={'Fight Board'}
-        subtitle={'Photo Sharing App'}
-        image={'/images/works/flightboard.png'}
-        skills={['JavaScript', 'Node.js', 'Express.js', 'mongoDB', 'MVC Architecture']}
-        link={'/works/flightboard'}
-        description={'This app is to share airplane photography for aviation geeks like me. User can post photos with aircraft information and see the location of the airport on the map.'}
-      />
-
-      <WorksItem
         heading={'Portfolio'}
         subtitle={'Gatsby.js Static Website'}
         image={'/images/works/portfolio.png'}

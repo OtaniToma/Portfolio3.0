@@ -43,7 +43,6 @@ const Nav = () => {
               <div className="accordion__content">
                 <ul>
                   <li data-name="budgeticket"><Link to="/works/budgeticket">BudgeTicket</Link></li>
-                  <li data-name="flightboard"><Link to="/works/flightboard">Flight Board</Link></li>
                   <li data-name="portfolio"><Link to="/works/portfolio">Portfolio</Link></li>
                   <li data-name="kumonos"><Link to="/works/kumonos">KUMONOS</Link></li>
                 </ul>
@@ -61,9 +60,6 @@ const Nav = () => {
           </figure>
           <figure className="sideimg__item" data-img="about">
             <img src="/images/hero/about.jpg" alt="" />
-          </figure>
-          <figure className="sideimg__item" data-img="flightboard">
-            <img src="/images/hero/flightboard.jpg" alt="" />
           </figure>
           <figure className="sideimg__item" data-img="budgeticket">
             <img src="/images/hero/budgeticket.jpg" alt="" />

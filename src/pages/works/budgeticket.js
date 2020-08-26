@@ -39,8 +39,7 @@ export default ({ location }) => (
         heading={'Features'}
         icons={[]}
         description={[
-          'Use basic JavaScript methods',
-          'Utilize React Hooks (useState, useEffect)',
+          'Utilize React Hooks',
           'Understand Re-ducks design pattern',
           'Style with UI Framework (Material-UI)'
         ]}
@@ -49,17 +48,16 @@ export default ({ location }) => (
         heading={'APIs'}
         icons={[]}
         description={[
-          'Skyscanner Flight Search',
-          'Build components both functional components and class components',
+          'Skyscanner Flight Search AP',
           'Google Maps JavaScript',
-          'OpenWeatherMap'
+          'Unsplash Image API'
         ]}
       />
     </TextBlock>
 
     <Pagination
       prev={'home'}
-      next={'flightboard'}
+      next={'portfolio'}
     />
 
   </Layout>
