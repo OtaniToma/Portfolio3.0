@@ -20,9 +20,9 @@ export default ({ location }) => (
     />
     
     <TextBlock heading={'Overview'} pagetop={false}>
-      <img src="/images/works/portfolio.png" className="screenshot" alt="screenshot" />
+      <img src="/images/works/portfolio-lighthouse.jpg" className="screenshot" alt="screenshot" />
       <p>
-        I built this portfolio website from scratch to understand SPA (Single Page Application). It achieves 100 point at performance on Google's Lighthouse Report. 
+        I built this portfolio website from scratch to understand SPA (Single Page Application). It achieves 100 point at performance on Google's Lighthouse Report. <br />
       </p>
       <Button value={'Github'} type={'outline'} link={'https://github.com/OtaniToma/portfolio'} external={true} />
     </TextBlock>
@@ -54,7 +54,7 @@ export default ({ location }) => (
     </TextBlock>
 
     <Pagination
-      prev={'flightboard'}
+      prev={'budgeticket'}
       next={'kumonos'}
     />
 
