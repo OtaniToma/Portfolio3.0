@@ -2,7 +2,7 @@
 I built this portfolio website from scratch to understand Gatsby.js. It achieves 100 point at performance on Google's Lighthouse Report.
 
 # URL
-[http://otanitoma.com](http://otanitoma.com)
+[https://otanitoma.com](https://otanitoma.com)
 
 # Technology Used
 * React.js
@@ -20,6 +20,3 @@ I built this portfolio website from scratch to understand Gatsby.js. It achieves
 * gatsby-plugin-prefetch-google-fonts
 * gatsby-plugin-react-helmet
 * gatsby-plugin-smoothscroll
-
-# Author
-* Toma Otani
