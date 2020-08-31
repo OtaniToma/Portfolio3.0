@@ -34,8 +34,8 @@ const Header = () => {
             <Link to={`/`}>Otani Toma</Link>
           </div>
           <div className="header-desktop__icon">
-            <Link to={`https://www.linkedin.com/in/otani-toma/`} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></Link>
-            <Link to={`https://github.com/OtaniToma/`} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></Link>
+            <a href="https://www.linkedin.com/in/otani-toma/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="https://github.com/OtaniToma/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
           </div>
         </div>
       </header>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../components/button'
+import { Link } from 'gatsby'
 
 const WorksItem = ({ heading, subtitle, image, skills, link, description }) => {
   
@@ -9,7 +10,9 @@ const WorksItem = ({ heading, subtitle, image, skills, link, description }) => {
         <div className="works-item__container inner-wrap">
           <div className="works-item__main-img">
             <div className="works-item__main-img__line"></div>
-            <img src={image} alt="" />
+            <Link to={link}>
+              <img src={image} alt="" />
+            </Link>
           </div>
           <div className="works-item__body">
             <div className="works-item__body__line"></div>
