@@ -29,6 +29,17 @@ export default ({ location }) => (
       <Button value={'Github'} type={'outline'} link={'https://github.com/OtaniToma/budgeticket'} external={true} />
     </TextBlock>
     
+    <TextBlock heading={'Features'} pagetop={false}>
+      <img src="/images/works/budgeticket-1.gif" className="" alt="screenshot" />
+      <p>
+        Text forms have autocomplete function to input accurate airport name. Also, datepicker components have the validation to check the departure date is before the return date.
+      </p>
+      <img src="/images/works/budgeticket-2.gif" className="" alt="screenshot" />
+      <p>
+        The data from Skyscanner API is stored in Redux store. Users can filter or sort results by departure date, price, and airlines.
+      </p>
+    </TextBlock>
+    
     <TextBlock heading={'Skills'} pagetop={false}>
       <Skills
         heading={''}
@@ -36,7 +47,7 @@ export default ({ location }) => (
         description={[]}
       />
       <Skills
-        heading={'Features'}
+        heading={'JavaScript & React.js'}
         icons={[]}
         description={[
           'Utilize React Hooks',
