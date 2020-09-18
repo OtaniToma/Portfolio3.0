@@ -25,6 +25,7 @@ const Skills = ({ heading, description, icons }) => {
     ejs: { id: 'ejs', path: '/images/icon/ejs.svg' },
     mongodb: { id: 'mongodb', path: '/images/icon/mongodb.svg' },
     gsap: { id: 'gsap', path: '/images/icon/gsap.svg' },
+    pwa: { id: 'pwa', path: '/images/icon/pwa.svg' },
     scrollmagic: { id: 'scrollmagic', path: '/images/icon/scrollmagic.png' },
     sass: { id: 'sass', path: '/images/icon/sass.svg' },
   }

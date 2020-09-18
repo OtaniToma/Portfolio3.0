@@ -49,17 +49,27 @@ const Home = () => {
         image={'/images/works/budgeticket.png'}
         skills={['JavaScript', 'React.js', 'Redux', 'Firebase', 'Material-UI']}
         link={'/works/budgeticket'}
-        description={'This app can find cheap flights with destination information. The purpose of creating this app is to understand the basics of JavaScript, handling API request, and React.js app development.'}
+        description={'Find and book cheap flights and get information of the destination.'}
       />
 
       <WorksItem
         heading={'Portfolio'}
         subtitle={'Gatsby.js Static Website'}
         image={'/images/works/portfolio.png'}
-        skills={['React.js', 'Gatsby.js', 'GraphQL', 'CSS']}
+        skills={['React.js', 'Gatsby.js', 'CSS']}
         link={'/works/portfolio'}
         github={'https://github.com/OtaniToma/Portfolio3.0'}
-        description={"I built this portfolio website from scratch to understand SPA (Single Page Application). It achieves 100 point at performance on Google's Lighthouse Report."}
+        description={"Super light and fast static website by Gatsby.js"}
+      />
+
+      <WorksItem
+        heading={'Markdown Editor'}
+        subtitle={'Text-to-html Converter'}
+        image={'/images/works/markdown.png'}
+        skills={['TypeScript', 'React.js', 'PWA', 'IndexedDB']}
+        link={'/works/markdown'}
+        github={'https://github.com/OtaniToma/markdown-editor'}
+        description={"Real-time converter from text to HTML"}
       />
 
       <WorksItem
@@ -68,7 +78,7 @@ const Home = () => {
         image={'/images/works/kumonos.png'}
         skills={['HTML', 'CSS', 'JavaScript', 'WordPress']}
         link={'/works/kumonos'}
-        description={'I worked for the company as a freelance web designer & developer.'}
+        description={'I designed and built the original WordPress design template for a corporate website.'}
       />
 
     </Layout>
