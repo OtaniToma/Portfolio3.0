@@ -22,10 +22,10 @@ export default ({ location }) => (
     <TextBlock heading={'Overview'} pagetop={false}>
       <img src="/images/works/markdown.png" className="screenshot" alt="screenshot" />
       <p>
-        Markdown Editor is an application of text-to-html conversion. User can use the app to format headers, lists, images and so on.  
+        Markdown Editor is an application of text-to-html conversion. Draft data can be stored on the browser with IndexedDB.
       </p>
       <p>
-        This app is based on the tutorial on <a href="https://www.techpit.jp/courses/111" target="_blank" rel="noreferrer">techpit.jp</a>.
+        *The app is based on the tutorial on <a href="https://www.techpit.jp/courses/111" target="_blank" rel="noreferrer">techpit.jp</a>.
       </p>
       <Button value={'Visit Website'} type={'solid'} link={'https://otanitoma.github.io/markdown-editor/'} external={true} />
       <Button value={'Github'} type={'outline'} link={'https://github.com/OtaniToma/markdown-editor'} external={true} />
@@ -36,6 +36,22 @@ export default ({ location }) => (
         icons={['typescript', 'react', 'pwa']}
       />
     </TextBlock>
+
+    <TextBlock heading={'Features'} pagetop={false}>
+      <img src="/images/works/markdown-1.gif" className="" alt="screenshot" />
+      <p>
+        When user typed words in markdown format, it is automatically converted to HTML and show on the right side panel.
+      </p>
+      <img src="/images/works/markdown-2.gif" className="" alt="screenshot" />
+      <p>
+        The data can be saved to the browser and retrieve the previous data.
+      </p>
+      <img src="/images/works/markdown-pwa.jpg" className="" alt="screenshot" />
+      <p>
+        The app is also built as PWA (Progressive Web Apps). 
+      </p>
+    </TextBlock>
+
 
     <Pagination
       prev={'portfolio'}

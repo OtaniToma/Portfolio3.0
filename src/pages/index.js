@@ -49,7 +49,7 @@ const Home = () => {
         image={'/images/works/budgeticket.png'}
         skills={['JavaScript', 'React.js', 'Redux', 'Firebase', 'Material-UI']}
         link={'/works/budgeticket'}
-        description={'Find and book cheap flights and get information of the destination.'}
+        description={'Find cheap flights and get information of the destination'}
       />
 
       <WorksItem
@@ -66,10 +66,10 @@ const Home = () => {
         heading={'Markdown Editor'}
         subtitle={'Text-to-html Converter'}
         image={'/images/works/markdown.png'}
-        skills={['TypeScript', 'React.js', 'PWA', 'IndexedDB']}
+        skills={['TypeScript', 'React.js', 'PWA']}
         link={'/works/markdown'}
         github={'https://github.com/OtaniToma/markdown-editor'}
-        description={"Real-time converter from text to HTML"}
+        description={"Real-time text to HTML tool"}
       />
 
       <WorksItem
