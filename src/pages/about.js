@@ -55,7 +55,7 @@ export default ({ location }) => (
       />
       <Skills
         heading={"Now Loading..."}
-        icons={['firebase', 'graphql']}
+        icons={['typescript', 'firebase', 'graphql', 'pwa']}
         description={[
           'Catching up with the modern technologies day by day!'
         ]}

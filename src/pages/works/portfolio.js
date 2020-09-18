@@ -34,7 +34,7 @@ export default ({ location }) => (
       </p>
     </TextBlock>
     
-    <TextBlock heading={'Skills'} pagetop={false}>
+    <TextBlock heading={'Technologies'} pagetop={false}>
       <Skills
         icons={['javascript', 'react', 'gatsby', 'graphql']}
       />
@@ -62,7 +62,7 @@ export default ({ location }) => (
 
     <Pagination
       prev={'budgeticket'}
-      next={'kumonos'}
+      next={'markdown'}
     />
 
   </Layout>

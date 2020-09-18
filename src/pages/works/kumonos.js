@@ -48,7 +48,7 @@ export default ({ location, data }) => (
       <Button value={'Visit Website'} type={'solid'} link={'http://kumonos.info/'} external={true} />
     </TextBlock>
     
-    <TextBlock heading={'Skills'} pagetop={false}>
+    <TextBlock heading={'Technologies'} pagetop={false}>
       <Skills
         icons={['html', 'css', 'javascript', 'sass', 'wordpress', 'gsap', 'scrollmagic', 'photoshop', 'illustrator']}
       />

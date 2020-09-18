@@ -11,8 +11,9 @@ const Pagination = ({ prev, next }) => {
     home: { id: "Home", path: '/'},
     about: { id: "About Me", path: '/about'},
     budgeticket: { id: "BudgeTicket", path: '/works/budgeticket'},
-    kumonos: { id: "KUMONOS", path: '/works/kumonos'},
+    markdown: { id: "Markdown Editor", path: '/works/markdown'},
     portfolio: { id: "Portfolio", path: '/works/portfolio'},
+    kumonos: { id: "KUMONOS", path: '/works/kumonos'},
   }
   
   return (

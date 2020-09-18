@@ -45,7 +45,7 @@ export default ({ location }) => (
       </p>
     </TextBlock>
     
-    <TextBlock heading={'Skills'} pagetop={false}>
+    <TextBlock heading={'Technologies'} pagetop={false}>
       <Skills
         heading={''}
         icons={['javascript', 'react', 'redux', 'firebase', 'materialui']}
