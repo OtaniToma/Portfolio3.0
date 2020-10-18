@@ -62,7 +62,7 @@ export default ({ location }) => (
 
     <Pagination
       prev={'budgeticket'}
-      next={'markdown'}
+      next={'kumonos'}
     />
 
   </Layout>

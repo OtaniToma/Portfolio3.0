@@ -44,7 +44,6 @@ const Nav = () => {
                 <ul>
                   <li data-name="budgeticket"><Link to="/works/budgeticket">BudgeTicket</Link></li>
                   <li data-name="portfolio"><Link to="/works/portfolio">Portfolio</Link></li>
-                  <li data-name="markdown"><Link to="/works/markdown">Markdown Editor</Link></li>
                   <li data-name="kumonos"><Link to="/works/kumonos">KUMONOS</Link></li>
                 </ul>
               </div>

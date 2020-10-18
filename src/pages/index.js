@@ -63,20 +63,10 @@ const Home = () => {
       />
 
       <WorksItem
-        heading={'Markdown Editor'}
-        subtitle={'Text-to-html Converter'}
-        image={'/images/works/markdown.png'}
-        skills={['TypeScript', 'React.js', 'PWA']}
-        link={'/works/markdown'}
-        github={'https://github.com/OtaniToma/markdown-editor'}
-        description={"Real-time text to HTML tool"}
-      />
-
-      <WorksItem
         heading={'KUMONOS'}
         subtitle={'WordPress Theme Development'}
         image={'/images/works/kumonos.png'}
-        skills={['HTML', 'CSS', 'JavaScript', 'WordPress']}
+        skills={['HTML', 'CSS', 'WordPress', 'Web Design']}
         link={'/works/kumonos'}
         description={'I designed and built the original WordPress design template for a corporate website.'}
       />
