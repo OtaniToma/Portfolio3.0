@@ -39,17 +39,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-sass`,
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Montserrat`,
-            variants: [`400`, `700`]
-          },
-        ],
-      },
-    },
     `gatsby-plugin-smoothscroll`,
     {
       resolve: `gatsby-plugin-google-analytics`,
