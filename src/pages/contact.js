@@ -9,17 +9,17 @@ import Button from "@material-ui/core/Button";
 const Contact = ({ location }) => {
 
   return (
-      <Layout>
+    <Layout>
       <SEO
         pagetitle="Contact"
         pagedesc="Test for Netlify form"
         pagepath={location.pathname}
       />
 
-        <TextBlock heading={"Get in Touch"} pagetop={true}>
-        <form name="contact" method="POST" netlify>
+      <TextBlock heading={"Get in Touch"} pagetop={true}>
+        <form name="contact" method="POST" data-netlify="true">
           <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
+            <label>Your Name: <input type="text" name="name" /></label>
           </p>
           <p>
             <label>Your Email: <input type="email" name="email" /></label>
@@ -37,8 +37,8 @@ const Contact = ({ location }) => {
             <button type="submit">Send</button>
           </p>
         </form>
-        </TextBlock>
-      </Layout>
+      </TextBlock>
+    </Layout>
   );
 };
 
