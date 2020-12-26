@@ -19,6 +19,7 @@ const Contact = ({ location }) => {
       <TextBlock heading={"Get in Touch"} pagetop={true}>
         <form
           name="contact"
+          action="/thanks"
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
