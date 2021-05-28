@@ -18,8 +18,7 @@ const Home = () => {
             <div className="home__name__wrapper">
               <h1 className="home__name__fullname">Otani Toma</h1><br />
               <span className="home__name__sub">
-                Front-end Developer<br />
-                Based in Vancouver, Canada
+                Front-end Developer in Vancouver, Canada
               </span>
             </div>
           </div>
